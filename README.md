@@ -22,7 +22,7 @@ A compact Blazor WebAssembly sample demonstrating how to localize data-annotatio
 ### Clone the repository:
 
 ```bash
-git clone https://your-repo-url/blazor-dataform-localization.git
+git clone https://github.com/SyncfusionExamples/blazor-dataform-localization.git
 cd blazor-dataform-localization
 ```
 

@@ -1,15 +1,19 @@
 # Blazor DataForm Localization
 
-A compact example showing how to localize data-annotation labels, validation messages, and component strings in a Blazor WebAssembly app.
+A compact example showing how to localize data-annotation labels, validation messages, and [DataForm](https://www.syncfusion.com/blazor-components/blazor-data-form) component strings in a Blazor Web App with hybrid rendering.
 
 ## Overview
 
-A compact Blazor WebAssembly sample demonstrating how to localize data-annotation labels and validation messages using .resx resource files, and how to provide localized strings to components.
+This sample demonstrates a model-driven localization approach for **Syncfusion DataForm** with complete data annotation support. The `UserDetails` model demonstrates how to combine Display attributes with validation error localization to achieve full UI localization without writing localization code in components. The app runs in German (de-DE) by default and shows how all DataForm field labels, validation messages, and component UI strings are resolved from .resx files.
 
 ## Features
 
-- Localized display names for model properties (data annotations)
-- Localized validation messages using `ErrorMessageResourceName` / `ErrorMessageResourceType`
+- **Localized Field Labels and Validation Messages**: Map data model properties to localized display names and validation error messages
+- **Component String Localization**: Integrate custom resource provider with DataForm for UI string translation
+- **Multi-Language Resource Files**: Support multiple cultures with neutral and culture-specific resource assemblies
+- **Application Culture Configuration**: Set global culture for consistent localization across all components
+- **Multiple Validation Attributes**: Localize error messages for different validation rules on the same property
+- **Hybrid Rendering**: Localization works with both server-side and client-side interactive components
 
 ## Prerequisites
 
@@ -45,8 +49,5 @@ dotnet run
 
 ## References
 
-
-- Blazor Localization (official documentation):
-https://learn.microsoft.com/aspnet/core/blazor/globalization-localization
-- Data Annotations Localization in .NET:
-https://learn.microsoft.com/aspnet/core/fundamentals/localization
+- https://blazor.syncfusion.com/documentation/common/localization
+- https://blazor.syncfusion.com/documentation/data-form/localization
